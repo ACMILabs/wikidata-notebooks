@@ -1,0 +1,19 @@
+name: run notebooks
+on:
+  push:
+    branches:
+      - main
+jobs:
+  execute:
+    runs-on: ubuntu-latest 
+    permissions:
+      contents: write      
+    steps:
+    - name: checkout repo
+      uses: actions/checkout@v3
+    - name: install dependancies
+      run: pip3 install -r requirements.txt
+    - name: test
+      run: |
+        ls -al
+        pip3 freeze
