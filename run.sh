@@ -10,4 +10,4 @@ else
 fi
 
 # run notebooks
-jupyter nbconvert --execute --to notebook --inplace ./link-progress/link_progress.ipynb
+# jupyter nbconvert --execute --to notebook --inplace ./link-progress/link_progress.ipynb
