@@ -10,4 +10,5 @@ else
 fi
 
 # run notebooks
-# jupyter nbconvert --execute --to notebook --inplace ./link-progress/link_progress.ipynb
+jupyter nbconvert --execute --to notebook --inplace ./notebooks/preprocessor.ipynb
+jupyter nbconvert --execute --to notebook --inplace ./notebooks/link_progress.ipynb
