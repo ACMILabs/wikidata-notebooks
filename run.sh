@@ -10,5 +10,6 @@ else
 fi
 
 # run notebooks
-jupyter nbconvert --execute --to notebook --inplace ./notebooks/preprocessor.ipynb
 jupyter nbconvert --execute --to notebook --inplace ./notebooks/link_progress.ipynb
+jupyter nbconvert --execute --to notebook --inplace ./notebooks/creator_relations.ipynb
+jupyter nbconvert --execute --to notebook --inplace ./notebooks/python_pull_work.ipynb
