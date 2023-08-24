@@ -1,10 +1,7 @@
 name: daily notebook action
 on:
-  push:
-    branches:
-      - main
-#  schedule:
-#    - cron: '0 0 * * *'
+  schedule:
+    - cron: '0 0 * * *'
 jobs:
   notebook-run:
     runs-on: ubuntu-latest 
