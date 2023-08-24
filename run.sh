@@ -9,5 +9,5 @@ else
     git clone https://github.com/ACMILabs/acmi-api.git --depth 1
 fi
 
-# # run notebooks
-# jupyter nbconvert --execute --to notebook --inplace ./notebooks/link_progress.ipynb
+# run notebooks
+jupyter nbconvert --execute --to notebook --inplace ./notebooks/entity_sync.ipynb
