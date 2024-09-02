@@ -1,4 +1,6 @@
+altair==5.4.1 
 notebook==6.5.4
 pandas==2.0.0
 pydash==6.0.0
 requests==2.31.0
+tqdm==4.66.5 
